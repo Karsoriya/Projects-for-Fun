@@ -29,7 +29,7 @@ scissors = '''
 '''
 
 game_images = [rock, paper, scissors]
-players_choice = int(input("What do you want? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+players_choice = int(input("What do you want? Enter 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 print("Player chose:")
 print(game_images[players_choice])
 
